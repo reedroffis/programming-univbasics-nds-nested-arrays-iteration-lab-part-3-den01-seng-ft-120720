@@ -7,7 +7,9 @@ def join_nested_strings(src)
     element_index = 0 
     while element_index < src[row_index].count do
     end
+    element_index += 1
   end
+  
 end
 
 # Hey future Roff. make sure to use .class to see if the elemnt is a string or not. That's probably where you should start.
