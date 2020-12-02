@@ -6,14 +6,15 @@ def join_nested_strings(src)
   while row_index < src.count do 
     element_index = 0 
     while element_index < src[row_index].count do
-      element = src[]
-      if element_index.class == String 
-        output + "element_index"
+      element = src[row_index][element_index]
+      if element.class == String 
+        output + " " + element = 
       end
       element_index += 1
     end
     row_index += 1 
   end
+  
 end
 
 # Hey future Roff. make sure to use .class to see if the elemnt is a string or not. That's probably where you should start.
